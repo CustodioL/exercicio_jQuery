@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('ul').on('click','li',function(){
-        $('ul').css('text-decoration', 'line-through');
+        $(this).css('text-decoration', 'line-through');
     })
     
     $('form').on('submit', function(e){
